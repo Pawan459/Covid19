@@ -1,0 +1,29 @@
+/* body{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(250, 250, 250);
+} */
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image{
+  width: 317px;
+  margin-top: 50px;
+}
+
+@media(max-width: 770px){
+  .container{
+    margin: 0 10%;
+  }
+
+  .image{
+    width: 100%;
+  }
+
+}
+
